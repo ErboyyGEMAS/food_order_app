@@ -1,0 +1,32 @@
+name: food_order_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'  # Menggunakan SDK Flutter 3.x.x
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  http: ^1.2.1
+  image_picker: ^0.8.5+3  # Menambahkan package image_picker
+  intl: ^0.18.0  # Menambahkan package intl
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - lib/screens/
+  fonts:
+    - family: ITCKRIST
+      fonts:
+        - asset: assets/fonts/ITCKRIST.ttf
